@@ -5,7 +5,7 @@ body {
   margin: 40px auto;
   padding: 20px;
   line-height: 1.6;
-  background-color: #f9f9f9; /* Same color as sections */
+  background-color: #f9f9f9;
   color: #333;
 }
 
@@ -27,13 +27,13 @@ nav ul li a {
   color: #0073e6;
 }
 
-/* Section Styling - Remove white background */
+/* Section Styling */
 section {
+  background: white;
   padding: 20px;
   margin: 20px 0;
   border-radius: 5px;
-  box-shadow: none; /* Remove box shadow */
-  background: none; /* Remove white background */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Headers */
@@ -83,19 +83,18 @@ ul li {
 }
 
 .profile-img {
-  width: 80px;
+  width: 80px; /* Adjust size as needed */
   height: 80px;
-  border-radius: 50%;
+  border-radius: 50%; /* Makes image circular */
   object-fit: cover;
 }
 
-/* Character Cards - Keep padding but remove the background */
 .character {
+  background: white;
   padding: 20px;
   margin: 20px 0;
   border-radius: 5px;
-  box-shadow: none; /* Remove card effect */
-  background: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
