@@ -58,14 +58,14 @@ h3 {
 /* Character Profile - Align Image to the Left of Name */
 .character-header {
   display: flex;
-  align-items: center; /* Aligns the image and name in the same row */
+  align-items: center; /* Ensures the image and name are in the same row */
   gap: 15px; /* Space between the image and name */
 }
 
 .character-header img {
-  width: 60px; /* Adjust size if needed */
+  width: 60px; /* Adjust as needed */
   height: 60px;
-  border-radius: 50%; /* Makes the image circular */
+  border-radius: 50%; /* Ensures the image is circular */
   object-fit: cover;
 }
 
