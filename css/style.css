@@ -5,7 +5,7 @@ body {
   margin: 40px auto;
   padding: 20px;
   line-height: 1.6;
-  background-color: #f9f9f9; /* Keep the soft background */
+  background-color: #f9f9f9;
   color: #333;
 }
 
@@ -27,13 +27,13 @@ nav ul li a {
   color: #0073e6;
 }
 
-/* Section Styling - Bring back white boxes */
+/* Section Styling */
 section {
-  background: white; /* White box effect */
+  background: white;
   padding: 20px;
   margin: 20px 0;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Headers */
@@ -55,41 +55,21 @@ h3 {
   margin-top: 15px;
 }
 
-/* Contact Info */
-#contact p {
-  margin: 5px 0;
-}
-
-#contact a {
-  color: #0073e6;
-  text-decoration: none;
-}
-
-/* Lists */
-ul {
-  padding-left: 20px;
-}
-
-ul li {
-  margin: 5px 0;
-}
-
-/* Character Profile Section */
-.profile-container {
+/* Character Profile - Align Image to the Left of Name */
+.character-header {
   display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 10px;
+  align-items: center; /* Aligns the image and name in the same row */
+  gap: 15px; /* Space between the image and name */
 }
 
-.profile-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+.character-header img {
+  width: 60px; /* Adjust size if needed */
+  height: 60px;
+  border-radius: 50%; /* Makes the image circular */
   object-fit: cover;
 }
 
-/* Character Cards*/
+/* Character Section */
 .character {
   background: white;
   padding: 20px;
