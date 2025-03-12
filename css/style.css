@@ -97,6 +97,22 @@ ul li {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Profile Picture Styling */
+.character-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 80px;  /* Adjust profile picture size */
+  height: 80px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;
+  border: 2px solid #0073e6; /* Adds a slight border for better visibility */
+}
+
 /* Footer */
 footer {
   text-align: center;
